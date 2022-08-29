@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Hassan Ihsan Quiz App</string>
+    <string name="MainTitle">Hassan Ihsans Insect Quiz</string>
+    <string name="srtBtn">START!</string>
+    <string name="Question">Which of the following is an insect?</string>
+    <string name="buterflyDesc">this is an buterfly</string>
+    <string name="redpandaDesc">this is an redpanda</string>
+    <string name="wolfDesc">this is an wolf</string>
+    <string name="cheetaDesc">this is an cheeta</string>
+    <string name="WrongAnswer">WRONG ANSWER!</string>
+    <string name="RightAnswer" >RIGHT ANSWER!!!!</string>
+    <string name="ReturnToQuestion">Try Again!</string>
+    <string name="ReturnToHome">Return to Home</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HIhsanMidterm2022</string>
+    <string name="website_text">Website</string>
+    <string name="website_desc_text">Description</string>
+    <string name="Button_send_noti">SEND NOTIFICATION</string>
+    <string name="Button_report">REPORT</string>
+    <string name="Button_returnMain">RETURN TO MAIN ACTIVITY</string>
+</resources>

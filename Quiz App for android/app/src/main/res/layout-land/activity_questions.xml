@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityQuestions">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="220dp"
+        android:layout_height="81dp"
+        android:text="@string/Question"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.572" />
+
+    <ImageButton
+        android:id="@+id/imagebuterfly"
+        android:layout_width="137dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="35dp"
+        android:contentDescription="@string/buterflyDesc"
+        app:layout_constraintBottom_toTopOf="@+id/imagecheeta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/butterfly" />
+
+    <ImageButton
+        android:id="@+id/imageredpanda"
+        android:layout_width="137dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/imagewolf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imagebuterfly"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/redpanda" />
+
+    <ImageButton
+        android:id="@+id/imagecheeta"
+        android:layout_width="137dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imagewolf"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagebuterfly"
+        app:layout_constraintVertical_bias="0.443"
+        app:srcCompat="@drawable/wolf" />
+
+    <ImageButton
+        android:id="@+id/imagewolf"
+        android:layout_width="137dp"
+        android:layout_height="116dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageredpanda"
+        app:layout_constraintVertical_bias="0.897"
+        app:srcCompat="@drawable/cheeta" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
